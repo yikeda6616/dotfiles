@@ -64,15 +64,3 @@ function rmrm() {
 
 alias gch='git checkout'
 alias gs='git status'
-
-source ~/ghq/github.com/yikeda6616/create-gh/.create-gh.sh
-
-export PYENV_ROOT=/Users/yikeda/.pyenv
-export PATH=/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin
-eval "$(pyenv init -)"
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/yikeda/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/yikeda/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/yikeda/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/yikeda/google-cloud-sdk/completion.zsh.inc'; fi
