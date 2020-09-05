@@ -24,7 +24,7 @@ zle -N peco-src
 bindkey '®' peco-src
 
 function relogin() {
-  exec $SHELL -l
+    exec $SHELL -l
 }
 
 alias rm='set -f; rmrm'
