@@ -23,6 +23,8 @@ ln -s ~/.dotfiles/.zpreztorc ~
 ln -s ~/.dotfiles/.vimrc ~
 ```
 
-**Misc**
+**Terminal Setup**
 
-[Arc0re/Iceberg-iTerm2](https://github.com/Arc0re/Iceberg-iTerm2)
+Zsh Framework - [sorin-ionescu/prezto](https://github.com/sorin-ionescu/prezto)
+
+iTerm2 Color Theme - [Arc0re/Iceberg-iTerm2](https://github.com/Arc0re/Iceberg-iTerm2)
