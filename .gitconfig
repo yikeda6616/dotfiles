@@ -1,0 +1,9 @@
+[core]
+	excludesfile = /Users/yikeda/.gitignore_global
+[user]
+	name = Yasushi Ikeda
+	email = yikeda6616@gmail.com
+[commit]
+	template = /Users/yikeda/.stCommitMsg
+[ghq]
+  root = ~/ghq
