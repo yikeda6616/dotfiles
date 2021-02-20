@@ -1,7 +1,5 @@
 # dotfiles
 
-
-
 **Prerequisites**
 
 Command Line Tool
@@ -14,12 +12,19 @@ Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+(Optional)[Prezto](https://github.com/sorin-ionescu/prezto)
+
+```
+git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+```
+
 **Installation**
 
 ```
-git clone https://github.com/yikeda6616/dotfiles ~/.dotfiles
-ln -s ~/.dotfiles/.zshrc ~
-ln -s ~/.dotfiles/.zpreztorc ~
+git clone https://github.com/yikeda6616/dotfiles ~/.dotfiles &&
+ln -s ~/.dotfiles/.gitconfig ~ &&
+ln -s ~/.dotfiles/.zshrc ~ &&
+ln -s ~/.dotfiles/.zpreztorc ~ &&
 ln -s ~/.dotfiles/.vimrc ~
 ```
 
