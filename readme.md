@@ -33,3 +33,7 @@ ln -s ~/.dotfiles/.vimrc ~
 Zsh Framework - [sorin-ionescu/prezto](https://github.com/sorin-ionescu/prezto)
 
 iTerm2 Color Theme - [Arc0re/Iceberg-iTerm2](https://github.com/Arc0re/Iceberg-iTerm2)
+
+**Node.js Setup**
+
+Node.js Version Management - [tj/n](https://github.com/tj/n)
