@@ -1,9 +1,17 @@
 # dotfiles
 
-**Dependencies**
 
+
+**Prerequisites**
+
+Command Line Tool
 ```
-brew install ghq peco
+xcode-select --install
+```
+
+Homebrew
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 **Installation**
@@ -14,3 +22,7 @@ ln -s ~/.dotfiles/.zshrc ~
 ln -s ~/.dotfiles/.zpreztorc ~
 ln -s ~/.dotfiles/.vimrc ~
 ```
+
+**Misc**
+
+[Arc0re/Iceberg-iTerm2](https://github.com/Arc0re/Iceberg-iTerm2)
