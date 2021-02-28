@@ -9,3 +9,5 @@
   root = ~/ghq
 [pull]
 	rebase = false
+[color]
+	ui = auto
