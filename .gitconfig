@@ -7,3 +7,5 @@
 	template = /Users/yikeda/.stCommitMsg
 [ghq]
   root = ~/ghq
+[pull]
+	rebase = false
