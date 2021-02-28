@@ -63,7 +63,7 @@ function rmrm() {
 }
 
 alias gch='git checkout'
-alias gs='git status'
+alias gs='git status --short'
 
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
