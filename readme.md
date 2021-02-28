@@ -21,6 +21,11 @@ git clone https://github.com/yikeda6616/dotfiles ~/.dotfiles
 ln -s ~/.dotfiles/.zshrc ~
 ln -s ~/.dotfiles/.zpreztorc ~
 ln -s ~/.dotfiles/.vimrc ~
+ln -s ~/.dotfiles/.gitconfig ~
+```
+
+```
+brew bundle --file '~/.dotfiles/Brewfile
 ```
 
 **Terminal Setup**
