@@ -33,6 +33,12 @@ ln -s ~/.dotfiles/.gitconfig ~
 brew bundle --file '~/.dotfiles/Brewfile'
 ```
 
+**Maintain**
+
+```
+brew bundle dump
+```
+
 **Terminal Setup**
 
 Zsh Framework - [sorin-ionescu/prezto](https://github.com/sorin-ionescu/prezto)
