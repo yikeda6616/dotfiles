@@ -26,7 +26,6 @@ ln -s ~/.dotfiles/.gitconfig ~ &&
 ln -s ~/.dotfiles/.zshrc ~ &&
 ln -s ~/.dotfiles/.zpreztorc ~ &&
 ln -s ~/.dotfiles/.vimrc ~ &&
-ln -s ~/.dotfiles/.gitconfig ~
 ```
 
 ```
