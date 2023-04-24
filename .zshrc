@@ -64,6 +64,13 @@ function rmrm() {
 
 alias gch='git checkout'
 alias gs='git status --short'
+alias dc='docker-compose'
+alias gce='git commit --allow-empty -m "empty commit"'
+alias stash='git add . && git stash'
+alias unstash='git stash apply'
+alias check='git checkout'
+alias gpr='git pull --rebase'
+alias repo='gh repo view -w'
 
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
