@@ -3,7 +3,6 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 brew "bat"
 brew "bzip2"
-brew "cmatrix"
 brew "composer"
 brew "firebase-cli"
 brew "gh"
@@ -12,20 +11,16 @@ brew "git"
 brew "glib"
 brew "python@3.10"
 brew "googler"
-brew "haskell-stack"
-brew "irssi"
 brew "jq"
 brew "krb5"
 brew "mas"
 brew "n"
 brew "pandoc"
 brew "peco"
-brew "php-cs-fixer"
 brew "pnpm"
 brew "pyenv"
 brew "screen"
 brew "tree"
-brew "w3m"
 brew "wget"
 brew "yarn"
 brew "youtube-dl"
@@ -71,5 +66,6 @@ mas "LINE", id: 539883307
 mas "Messenger", id: 1480068668
 mas "Microsoft Outlook", id: 985367838
 mas "Microsoft Remote Desktop", id: 1295203466
+mas "Prime Video", id: 545519333
 mas "Spark", id: 1176895641
 mas "Xcode", id: 497799835
