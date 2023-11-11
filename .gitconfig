@@ -13,3 +13,8 @@
 	ui = auto
 [init]
 	defaultBranch = main
+[credential "https://github.com"]
+  helper = osxkeychain
+[credential "https://git-codecommit.ap-northeast-1.amazonaws\.com/"]
+	helper = !aws codecommit credential-helper $@
+	UseHttpPath = true
